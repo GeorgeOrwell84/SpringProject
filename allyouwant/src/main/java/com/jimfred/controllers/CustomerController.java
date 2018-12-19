@@ -21,7 +21,6 @@ public class CustomerController {
 	
 	
 	
-	
 	@RequestMapping("/customers")
 	public List<Customers> getCustomers() {
 		return customerService.getCustomers();
