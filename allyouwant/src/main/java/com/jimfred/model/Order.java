@@ -29,7 +29,7 @@ public class Order {
 //	@JoinColumn(name="customer_id")
 //	private Customers customers;
 //	
-	@OneToOne
+	@OneToOne(cascade= CascadeType.ALL)
 	@JoinColumn(name="product_id")
 	private Products product;
 	
