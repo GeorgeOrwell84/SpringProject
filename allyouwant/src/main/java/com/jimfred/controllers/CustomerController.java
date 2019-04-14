@@ -28,6 +28,8 @@ public class CustomerController {
 
 		names.add("Mike");
 		names.add("Jhon");
+		names.add("Ben");
+		names.add("Billy");
 		return names;
 	}
 	
